@@ -9,6 +9,7 @@ public class BinaryDigitConversion {
 
         System.out.println("Enter number to get it's binary digit: ");
         num = sc.nextInt();
+        sc.close();
         n=num;
 
         for(i=7;num!=1;i--){
@@ -25,6 +26,6 @@ public class BinaryDigitConversion {
             System.out.print(binaryDigit[i]);
         }
 
-        sc.close();
+        
     }
 }
