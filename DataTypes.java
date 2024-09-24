@@ -71,6 +71,7 @@ public class DataTypes {
         System.out.println("a1: "+a1+" "+"a2: "+a2+" "+"a3: "+a3+" ");
 
         String fruit = "Apple";
+        //For String we have to use capital S , since it is treated as class.
         String fruitDesc = "Apple is better fuit than orange, do you think so!";
         System.out.println(fruit);
         System.out.println(fruitDesc);
