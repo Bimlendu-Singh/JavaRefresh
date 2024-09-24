@@ -32,7 +32,9 @@ public class DataTypes {
         System.out.println("No");
         else
         System.out.println("Helloluiah");
-//..................... Boolean Example Starts...............
+//..................... Boolean Example ends...............
+
+//.....................int and Long Example Starts...............
 
         int mufti_Tshirt1Price =  6000;
         long mTP = mufti_Tshirt1Price;  //Here implicit type casting is happening
@@ -46,6 +48,16 @@ public class DataTypes {
 
         System.out.println("Long number : " + quta);
         System.out.println("int number : " + Quta);
+
+//.....................int and Long Example Ends...............
+
+        float jnrSalary = 18000.56f; //Here we need to mention 'f' when using float otherwise it will take it as double by default
+        double midleSalary = 55444.6437566d; //We can mention 'd' also for decimal, otherwis by default it is decimal only.
+        double seniorSalary = 53425.689066;
+
+        System.out.println("float : "+jnrSalary);
+        System.out.println("double with d : "+midleSalary);
+        System.out.println("double : "+seniorSalary);
 
     }
 }
