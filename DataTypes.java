@@ -51,6 +51,9 @@ public class DataTypes {
 
 //.....................int and Long Example Ends...............
 
+//.....................Float and Double Example Starts...............
+
+
         float jnrSalary = 18000.56f; //Here we need to mention 'f' when using float otherwise it will take it as double by default
         double midleSalary = 55444.6437566d; //We can mention 'd' also for decimal, otherwis by default it is decimal only.
         double seniorSalary = 53425.689066;
@@ -58,6 +61,21 @@ public class DataTypes {
         System.out.println("float : "+jnrSalary);
         System.out.println("double with d : "+midleSalary);
         System.out.println("double : "+seniorSalary);
+
+//.....................Float and Double Example Ends...............
+
+        char a1 = 'a';
+        char a2 = '1';
+        char a3 = '@';
+
+        System.out.println("a1: "+a1+" "+"a2: "+a2+" "+"a3: "+a3+" ");
+
+        String fruit = "Apple";
+        String fruitDesc = "Apple is better fuit than orange, do you think so!";
+        System.out.println(fruit);
+        System.out.println(fruitDesc);
+        
+
 
     }
 }
