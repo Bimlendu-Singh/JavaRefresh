@@ -39,7 +39,7 @@ public class SwitchCase {
                 break;
         
             default: System.out.println("Enter the right date!");
-                break;
+                
         }
     }
 }
