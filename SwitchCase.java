@@ -4,10 +4,10 @@ public class SwitchCase {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        sc.close();
 
         System.out.println("Enter the days of the week: ");
         int day = sc.nextInt();
+        sc.close();
 
         switch (day) {
             case 1:
