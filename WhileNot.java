@@ -10,16 +10,16 @@ public class WhileNot {
 
         String guess="A";
 
-        while (guess!=word ) {
-            System.out.println("Guess the word: ");
+        while (!guess.equals(word) ) {
+            System.out.println("Guess the word: "); //In java to compare two string we use .equals not == operator.
             guess = sc.nextLine();
 
-            if(guess==word)
+            if(guess.equals(word))
             {
                 System.out.println("Congratulation, You WON!");
                 break;
             }
-            else if (guess=="I Loose") {
+            else if (guess.equals("I Loose")) {
                 System.out.println("It's okay!, Correct word is : "+word);
                 break;
             }

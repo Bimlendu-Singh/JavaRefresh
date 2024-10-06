@@ -8,7 +8,9 @@ public class Table {
         int table = sc.nextInt();
         sc.close();
 
-        
+        for(int i=1;i<=100;i++){
+            System.out.println(table+"*"+i+" = "+(table*i));
+        }
 
     }
 }
