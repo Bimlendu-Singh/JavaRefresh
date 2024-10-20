@@ -6,11 +6,13 @@ public class ArrayReverse {
         j = num.length;
         k=0;
 
+        // Displaying array before sorting
         System.out.println("Array before sorting: ");
         for (int l = 0; l < num.length; l++) {
             System.out.print(" "+num[l]);
         }
 
+        // Reversing array using third variable temp and running loop half the size of array since in one loop two index get sorted
         for(i=0;i<=(num.length/2);i++)
         {
             temp=num[j];
@@ -20,6 +22,9 @@ public class ArrayReverse {
             k++;
         }
 
-        System.out.println(num.length);
+        System.out.println("Array before sorting: ");
+        for (int l = 0; l < num.length; l++) {
+            System.out.print(" "+num[l]);
+        }
     }
 }
