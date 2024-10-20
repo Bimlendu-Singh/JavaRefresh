@@ -3,17 +3,17 @@ public class ArrayReverse {
         int num[] = {10,20,30,40,50,80};
         int i,j,k,temp;
 
-        j = num.length;
+        j = (num.length-1);//Assigning length of java
         k=0;
 
         // Displaying array before sorting
-        System.out.println("Array before sorting: ");
+        System.out.println("\nArray before sorting: ");
         for (int l = 0; l < num.length; l++) {
             System.out.print(" "+num[l]);
         }
 
         // Reversing array using third variable temp and running loop half the size of array since in one loop two index get sorted
-        for(i=0;i<=(num.length/2);i++)
+        for(i=0;i<(num.length/2);i++)
         {
             temp=num[j];
             num[j]=num[k];
@@ -22,7 +22,8 @@ public class ArrayReverse {
             k++;
         }
 
-        System.out.println("Array before sorting: ");
+        // Displaying array after sorting
+        System.out.println("\nArray after sorting: ");
         for (int l = 0; l < num.length; l++) {
             System.out.print(" "+num[l]);
         }
