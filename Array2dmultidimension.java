@@ -11,5 +11,6 @@ public class Array2dmultidimension {
         System.out.println(salary[0].length);
         System.out.println(salary[1].length);
         System.out.println(salary[2].length);
+        sc.close();
     }
 }
