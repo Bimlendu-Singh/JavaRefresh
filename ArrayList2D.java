@@ -26,6 +26,9 @@ public class ArrayList2D {
         studentScores.add(student2Scores);
         studentScores.add(student3Scores);
 
+        // Adding value to specific inner ArrayList, similar way first get it then add remove display can be done using function
+        studentScores.get(1).add(45);
+
         // Displaying each values of Arraylist containing inner ArrayList
         for(int i=0;i<studentScores.size();i++)
         {
