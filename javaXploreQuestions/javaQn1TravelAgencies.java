@@ -14,6 +14,15 @@ public class javaQn1TravelAgencies
 
         int highestPackagePrice = findAgencyWithHighestPackagePrice(tAgencies);
         System.out.println(highestPackagePrice);
+
+        TravelAgencies details = agencyDetailsForGivenIdAndType(tAgencies,3,"Platinum");
+        if (details!=null) {
+            System.out.println(details.agencyName+" "+details.price);
+        }
+        else
+        {
+            System.out.println("Not available or check you input again, thanks!");
+        }
     }
 
     // Method to find highest package 
