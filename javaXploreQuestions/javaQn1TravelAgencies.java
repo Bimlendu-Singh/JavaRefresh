@@ -30,5 +30,26 @@ public class javaQn1TravelAgencies
         return x;
 
     }
+
+    public static TravelAgencies agencyDetailsForGivenIdAndType(TravelAgencies[] obj, int regNo, String packageType)
+    {
+        TravelAgencies details = null;
+
+        for (TravelAgencies iterateTA : obj) {
+            if (iterateTA.FlightFacility) {
+                if (iterateTA.regNo==regNo) {
+                    for (TravelAgencies ta : obj) {
+                        if (packageType==ta.packageType) {
+                            details=iterateTA;
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+
+        return details;
+
+    }
 }
 
